@@ -14,6 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+import { TypeAnimation } from "react-type-animation";
 import "./App.css";
 
 function App() {
@@ -21,9 +22,33 @@ function App() {
         <div className="App">
             <div className="hero">
                 <div className="hero__container">
-                    <header className="hero__header">
-                        We are 4324 Lost in Time
-                    </header>
+                    <TypeAnimation
+                        sequence={[
+                            "We are 4324 Lost in Time",
+                            3000,
+                            "We are innovators",
+                            3000,
+                            "We are creators",
+                            3000,
+                            "We are designers",
+                            3000,
+                            "We are engineers",
+                            3000,
+                            () => {
+                                console.log("Sequence completed");
+                            },
+                        ]}
+                        wrapper="span"
+                        cursor={true}
+                        repeat={Infinity}
+                        style={{
+                            color: "#ffffff",
+                            fontSize: "5rem",
+                            fontWeight: 700,
+                            marginBottom: "1rem",
+                            textAlign: "center",
+                        }}
+                    />
                     <div className="hero__button-container">
                         <a className="hero__button" href="/">
                             About Our FTC Team →
