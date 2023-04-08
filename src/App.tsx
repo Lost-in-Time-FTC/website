@@ -43,7 +43,7 @@ function App() {
                         repeat={Infinity}
                         style={{
                             color: "#ffffff",
-                            fontSize: "5rem",
+                            fontSize: "clamp(3rem, 10vw, 5rem)",
                             fontWeight: 700,
                             marginBottom: "1rem",
                             textAlign: "center",
