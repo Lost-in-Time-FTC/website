@@ -14,13 +14,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-import { Hero } from "./components";
+import { Home } from "./pages";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 function App() {
     return (
         <div className="App">
-            <Hero />
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    {/* <Route path="about" element={<About />} /> */}
+                </Routes>
+            </BrowserRouter>
         </div>
     );
 }

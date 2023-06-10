@@ -16,7 +16,7 @@ limitations under the License.
 
 .Hero {
     background: url("/src/assets/gradient-dark.png") no-repeat center / cover;
-    min-height: 100vh;
+    min-height: 66vh;
     width: 100%;
 }
 
@@ -28,7 +28,7 @@ limitations under the License.
     justify-content: center;
     margin: 0 auto;
     max-width: 1300px;
-    min-height: 100vh;
+    min-height: 66vh;
     width: 100%;
     padding: 0 1.5rem;
 }

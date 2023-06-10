@@ -23,23 +23,10 @@ export function Hero() {
             <div className="Hero__container">
                 <TypeAnimation
                     sequence={[
-                        "We are 4324 Lost in Time",
-                        3000,
-                        "We are innovators",
-                        3000,
-                        "We are creators",
-                        3000,
-                        "We are designers",
-                        3000,
-                        "We are engineers",
-                        3000,
-                        () => {
-                            console.log("Sequence completed");
-                        },
+                        "4324 Lost in Time",
                     ]}
                     wrapper="span"
                     cursor={true}
-                    repeat={Infinity}
                     style={{
                         color: "#ffffff",
                         fontSize: "clamp(3rem, 10vw, 5rem)",
@@ -48,11 +35,11 @@ export function Hero() {
                         textAlign: "center",
                     }}
                 />
-                <div className="Hero__button-container">
+                {/* <div className="Hero__button-container">
                     <a className="Hero__button" href="/">
                         About Our FTC Team →
                     </a>
-                </div>
+                </div> */}
             </div>
         </div>
     );
