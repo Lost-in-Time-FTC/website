@@ -15,24 +15,24 @@ limitations under the License.
 */
 
 import "./About.css";
-import placeholder from "../../../../assets/placeholder.png"
+import placeholder from "../../../../assets/placeholder.png";
 
 export function About() {
-    return (
-        <div className="About">
-            <div className="About__container">
-                <div className="About__image-container">
-                    <img src={placeholder} alt="" />
-                </div>
-
-                <div className="About__text-container">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Obcaecati magnam impedit expedita, sunt non excepturi
-                    mollitia facilis reprehenderit aliquid vitae ratione quas,
-                    omnis, sed est error sequi vel reiciendis illum consequuntur
-                    iure eligendi tenetur cumque. Non culpa id excepturi atque.
-                </div>
-            </div>
+  return (
+    <div className="About">
+      <div className="About__container">
+        <div className="About__image-container">
+          <img src={placeholder} alt="" />
         </div>
-    );
+
+        <div className="About__text-container">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+          magnam impedit expedita, sunt non excepturi mollitia facilis
+          reprehenderit aliquid vitae ratione quas, omnis, sed est error sequi
+          vel reiciendis illum consequuntur iure eligendi tenetur cumque. Non
+          culpa id excepturi atque.
+        </div>
+      </div>
+    </div>
+  );
 }

@@ -18,29 +18,27 @@ import { TypeAnimation } from "react-type-animation";
 import "./Hero.css";
 
 export function Hero() {
-    return (
-        <div className="Hero">
-            <div className="Hero__container">
-                <TypeAnimation
-                    sequence={[
-                        "4324 Lost in Time",
-                    ]}
-                    wrapper="span"
-                    cursor={true}
-                    style={{
-                        color: "#ffffff",
-                        fontSize: "clamp(3rem, 10vw, 5rem)",
-                        fontWeight: 700,
-                        marginBottom: "1rem",
-                        textAlign: "center",
-                    }}
-                />
-                {/* <div className="Hero__button-container">
+  return (
+    <div className="Hero">
+      <div className="Hero__container">
+        <TypeAnimation
+          sequence={["4324 Lost in Time"]}
+          wrapper="span"
+          cursor={true}
+          style={{
+            color: "#ffffff",
+            fontSize: "clamp(3rem, 10vw, 5rem)",
+            fontWeight: 700,
+            marginBottom: "1rem",
+            textAlign: "center",
+          }}
+        />
+        {/* <div className="Hero__button-container">
                     <a className="Hero__button" href="/">
                         About Our FTC Team →
                     </a>
                 </div> */}
-            </div>
-        </div>
-    );
+      </div>
+    </div>
+  );
 }

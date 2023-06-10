@@ -15,43 +15,43 @@ limitations under the License.
 */
 
 .Hero {
-    background: url("/src/assets/gradient-dark.png") no-repeat center / cover;
-    min-height: 66vh;
-    width: 100%;
+  background: url("/src/assets/gradient-dark.png") no-repeat center / cover;
+  min-height: 66vh;
+  width: 100%;
 }
 
 .Hero__container {
-    align-items: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 1300px;
-    min-height: 66vh;
-    width: 100%;
-    padding: 0 1.5rem;
+  align-items: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1300px;
+  min-height: 66vh;
+  width: 100%;
+  padding: 0 1.5rem;
 }
 
 .Hero__button-container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .Hero__button {
-    background-color: #374184;
-    border-radius: 4px;
-    color: #ffffff;
-    display: inline-block;
-    font-size: clamp(1rem, 3vw, 1.5rem);
-    padding: 0.75em 1.5em;
-    text-align: center;
-    text-decoration: none;
-    transition: 0.4s ease;
+  background-color: #374184;
+  border-radius: 4px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  padding: 0.75em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.4s ease;
 }
 
 .Hero__button:hover {
-    background-color: #3b3c61;
-    transition: 0.4s ease;
+  background-color: #3b3c61;
+  transition: 0.4s ease;
 }

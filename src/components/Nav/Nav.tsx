@@ -1,5 +1,3 @@
 export function Nav() {
-    return (
-        <div className=""></div>
-    );
+  return <div className=""></div>;
 }
